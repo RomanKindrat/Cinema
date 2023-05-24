@@ -1,24 +1,31 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+#ticket {
+  background-color: rgb(114, 144, 189);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#ticket .movie-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
-
-h2 {
-  color: #333;
-  margin-bottom: 20px;
+#ticket .movie-details img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
 }
-
-form {
+#ticket .movie-details .ticket-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,50 +34,31 @@ form {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-input,
-select {
-  padding: 10px;
+#ticket .movie-details .ticket-form h2 {
+  color: #8b0000;
   margin-bottom: 10px;
-  border-radius: 3px;
+}
+#ticket .movie-details .ticket-form form label {
+  color: black;
+  margin-bottom: 5px;
+}
+#ticket .movie-details .ticket-form form input,
+#ticket .movie-details .ticket-form form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
   border: 1px solid #ccc;
 }
-
-button {
-  padding: 10px 20px;
-  background-color: #333;
+#ticket .movie-details .ticket-form form button {
+  background-color: #b30000;
   color: #fff;
+  padding: 10px 20px;
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
-
-button:hover {
-  background-color: #555;
-}
-
-#ticket {
-  margin-top: 50px;
-}
-
-.movie-details {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.movie-details form {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.movie-details button {
-  margin-top: 20px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+#ticket .movie-details .ticket-form form button:hover {
+  background-color: #ff0000;
 }
