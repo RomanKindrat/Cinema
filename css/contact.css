@@ -1,0 +1,94 @@
+/* Set background color and font styles for the entire page */
+body {
+    background-color: #73b1c8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  body header {
+    background-image: url("../images/background2.jpg");
+    color: #ffffff;
+    padding: 20px;
+  }
+  body nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  body nav li {
+    float: left;
+  }
+  body nav a {
+    margin: 0px;
+    display: block;
+    color: #650101;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: cadetblue;
+  }
+  body nav a:hover {
+    background-color: #d37777;
+    color: #010055;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Style the main content section */
+  main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0300b1;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-right: 900px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #d40000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ea7171;
+  }
+  /* Style the footer */
+  footer {
+    background-image: url("../images/background2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  

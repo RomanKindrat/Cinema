@@ -1,0 +1,81 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #fff;
+
+// Global styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 10px;
+  text-align: center;
+}
+
+// Table styles
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  
+  th {
+    background-color: lighten($primary-color, 20%);
+    color: $secondary-color;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lighten($primary-color, 10%);
+  }
+  
+  tr:hover {
+    background-color: lighten($primary-color, 5%);
+  }
+}
+
+// Form styles
+form {
+  margin-bottom: 20px;
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    cursor: pointer;
+  }
+}

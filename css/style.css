@@ -1,0 +1,256 @@
+/* Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  background-color: #e69b9b00;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.sign-in-button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.sign-in-button:focus {
+  outline: none;
+}
+
+.sign-in-button:hover {
+  background-color: #444;
+}
+
+
+header {
+    background-image: url(../images/background2.jpg);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  /* Navigation Styling */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 20px;
+    background-color: rgb(76, 129, 150);
+  }
+  
+  #banner {
+    text-align: center;
+    background-color: #80aace;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #banner h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  #banner p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b30000;
+    margin-bottom: 10px;
+  }
+  
+  #banner img {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Featured Movies Styling */
+  #movies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #movies li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 20px 0;
+  }
+  
+  #movies img {
+    width: 200px;
+  }
+  
+  #movies h2 {
+    color: #fff;
+  }
+  
+  #movies h3, #movies p {
+    margin: 0;
+    text-align: center;
+    color: #b30000;
+  }
+  
+  #movies h3 {
+    font-weight: bold;
+  }
+  
+  #movies p {
+    font-weight: 400;
+  }
+  
+  
+
+  #halls ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #halls li {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  #halls img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #halls img:hover {
+    transform: scale(1.1);
+  }
+
+  #halls h2 {
+    color:#fff;
+  }
+  
+  #halls h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color:#b30000
+  }
+  
+  #halls p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #b30000;
+  }
+  
+  #halls span {
+    font-weight: bold;
+  }
+  
+  
+  /* Showtimes Styling */
+  #showtimes {
+    margin-bottom: 40px;
+    background-color: #80aace;
+    border-radius: 5px;
+  }
+
+  #showtimes h2 {
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  #showtimes p {
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  #showtimes form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  #showtimes label {
+    color:#b30000;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #showtimes select {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  #showtimes input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #showtimes input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  
+  /* Footer Styling */
+  footer {
+    background-image: url(../images/background2.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  

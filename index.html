@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinema</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="sign_in.html"><button class="sign-in-button">Sign In</button></a>
+		  </div>
+		  
+		<h1>Welcome to MY cinema</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="movies.html">Movies&Showtimes</a></li>
+				<li><a href="locations.html">Locations</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="banner">
+			<h2>Now Playing</h2>
+			<p>Spider-Man</p>
+			<img width="200" src="images\spider-man.jpg" alt="Spider-Man">
+		</section>
+
+		<section id="movies">
+			<h2>Today's session</h2>
+			<ul>
+			  <li>
+				<h3>Mafia Mama</h3>
+				<img width="200" src="images/mafia.jpg" alt="Mafia Mama Poster">
+				<p>Time: <span>15:00</span></p>
+			  </li>
+			  <li>
+				<h3>Mavca</h3>
+				<img width="200" src="images/mavca.png" alt="Mavca Poster">
+				<p>Time: <span>18:00</span></p>
+			  </li>
+			  <li>
+				<h3>Guardians of the Galaxy</h3>
+				<img width="200" src="images/Guardians_of_the_Galaxy.jpg" alt="Guardians of the Galaxy Poster">
+				<p>Time: <span>20:00</span></p>
+			  </li>
+			</ul>
+		  </section>
+		  
+
+		<section id="halls">
+			<h2>Our Halls</h2>
+			<ul>
+				<li>
+					<img src="images/hall1.jpg" alt="Hall 1 Poster">
+					<h3>Hall 1</h3>
+					<p>Address: <span>123 Main St.</span></p>
+				</li>
+				<li>
+					<img src="images/hall2.jpg" alt="Hall 2 Poster">
+					<h3>Hall 2</h3>
+					<p>Address: <span>456 Oak Ave.</span></p>
+				</li>
+				<li>
+					<img src="images/vip_hall.jpg" alt="VIP Hall Poster">
+					<h3>VIP Hall</h3>
+					<p>Address: <span>789 Elm St.</span></p>
+				</li>
+			</ul>
+		</section>
+
+		<section id="showtimes">
+			<h2>Showtimes</h2>
+			<p>Choose a movie and theater to view showtimes:</p>
+			<form>
+				<label for="movies">Select a movie:</label>
+                <select id="movies" name="movies">
+					<option value="movie-1">Movie Title 1</option>
+					<option value="movie-2">Movie Title 2</option>
+					<option value="movie-3">Movie Title 3</option>
+				</select>
+				<label for="theaters">Select a theater:</label>
+				<select id="theaters" name="theaters">
+					<option value="theater-1">Theater Name 1</option>
+					<option value="theater-2">Theater Name 2</option>
+					<option value="theater-3">Theater Name 3</option>
+				</select>
+				<input type="submit" value="View Showtimes">
+			</form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Created by Roman Kindrat</p>
+    </footer>
+</body>
+</html>

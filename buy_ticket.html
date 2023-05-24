@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Ticket - Avengers</title>
+  <link rel="stylesheet" href="css/buy_ticket.css">
+</head>
+<body>
+  <section id="ticket">
+    <div class="movie-details">
+      <h2>Avengers</h2>
+      <form action="checkout.php" method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="time">Time:</label>
+        <select id="time" name="time" required>
+          <option value="18:00">18:00</option>
+          <option value="20:00">20:00</option>
+          <option value="22:00">22:00</option>
+        </select>
+        
+        <label for="theater">Theater:</label>
+        <select id="theater" name="theater" required>
+          <option value="Hall 1">Hall 1</option>
+          <option value="Hall 2">Hall 2</option>
+          <option value="VIP Hall">VIP Hall</option>
+        </select>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+        
+        <button type="submit">Buy Now</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

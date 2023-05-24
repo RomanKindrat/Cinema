@@ -1,0 +1,85 @@
+/* styles.scss */
+
+body {
+    header {
+        background-image: url("../images/background2.jpg");
+        color: #ffffff;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      nav li {
+        float: left;
+      }
+      
+      nav a {
+        margin: 0px;
+        display:block;
+        color: #650101;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        background-color: cadetblue;
+      }
+      
+      nav a:hover {
+        background-color: #d37777;
+        color:#010055
+      }
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cinema {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cinema img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.cinema-details {
+  .cinema-name{
+    color: red;
+  }
+  display: flex;
+  flex-direction: column;
+}
+
+.cinema-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cinema-address,
+.cinema-email,
+.cinema-phone {
+  margin: 5px 0;
+}
+
+footer {
+    background-image: url("../images/background2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }

@@ -1,0 +1,106 @@
+/* Set background color and font styles for the entire page */
+body {
+    background-color: #79c8da;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url("../images/background2.jpg");
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    margin: -20px;
+    display:block;
+    color: #650101;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: cadetblue;
+  }
+  
+  nav a:hover {
+    background-color: #d37777;
+    color:#010055
+  }
+  
+  /* Style the main content section */
+  main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  /* Style the movie list */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #7dc0b5;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  }
+
+  li ul li {
+    background-color: #fff;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  h3 {
+    margin: 10px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: inline-block;
+    margin-right: 550px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-image: url("../images/background2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin-top: 100px;
+    margin-right: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+  }
+  

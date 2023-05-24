@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кінотеатр</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Кінотеатр "Назва"</h1>
+    </header>
+
+    <main>
+        <h2>Розклад сеансів</h2>
+        <table>
+            <tr>
+                <th>Фільм</th>
+                <th>Час</th>
+                <th>Кількість вільних місць</th>
+            </tr>
+            <tr>
+                <td>Фільм 1</td>
+                <td>12:00</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Фільм 2</td>
+                <td>15:00</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Фільм 3</td>
+                <td>18:00</td>
+                <td>2</td>
+            </tr>
+        </table>
+
+        <h2>Замовлення квитків</h2>
+        <form>
+            <label for="film">Фільм:</label>
+            <select name="film" id="film">
+                <option value="Фільм 1">Фільм 1</option>
+                <option value="Фільм 2">Фільм 2</option>
+                <option value="Фільм 3">Фільм 3</option>
+            </select>
+
+            <label for="time">Час:</label>
+            <select name="time" id="time">
+                <option value="12:00">12:00</option>
+                <option value="15:00">15:00</option>
+                <option value="18:00">18:00</option>
+            </select>
+
+            <label for="seats">Кількість квитків:</label>
+            <input type="number" name="seats" id="seats" min="1" max="10">
+
+            <button type="submit">Замовити</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2023 Кінотеатр "Назва"
+    </footer>
+</body>
+</html>
